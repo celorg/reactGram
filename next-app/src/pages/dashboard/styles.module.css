@@ -1,0 +1,23 @@
+.home{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+.home .btn{
+    display: block;
+    max-width: 120px;
+    text-align: center;
+    margin: 0.5em 0 2em 0;
+    padding: 12px 0;
+}
+
+.btn{
+    background-color: #0094f6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: .8;
+    font-size: 1em;
+}

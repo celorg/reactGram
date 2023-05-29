@@ -1,0 +1,33 @@
+.container{
+    background: rgba(0, 0, 0, 0.7);
+    /* opacity: 0.3; */
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    /* padding: 2rem 0; */
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    position: fixed;
+    background-color: #fff;
+    z-index: 9999;
+    color: #000;
+    width: 70%;
+    height: auto;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0;
+    display: block;
+}
+.close{
+    margin-bottom: 1rem;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}

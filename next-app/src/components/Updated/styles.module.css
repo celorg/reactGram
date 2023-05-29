@@ -1,0 +1,40 @@
+.button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.boxImage{
+    background-color: #b2b2b2;
+    height: 250px;
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.box{
+    background-color: transparent;
+    max-height: 250px;
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: not-allowed;
+    margin-bottom: 2rem;
+}
+
+.previewImage{
+    z-index: 100;
+    max-width: 300px;
+    max-height: 250px;
+    background-size: contain;
+    opacity: 0.9;
+}

@@ -1,0 +1,26 @@
+.buttonIcon{
+    border: none;
+    background-color: transparent;
+}
+.divButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.divButton button{
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cancel{
+    background-color: rgb(223, 37, 37);
+    color: #fff;
+}
+.confirm{
+    background-color: rgb(2, 187, 2);
+    color: #fff;
+}
